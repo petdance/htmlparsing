@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #dcdcdc url('../img/bobby_bg.png') repeat-x top;
+    font-family: georgia, 'times new roman', serif;
+}
+
+/* basic site styling */
+
+#content a:link, a:visited {
+    color:#800;
+    text-decoration:underline;
+}
+
+#content a:hover, a:active {
+    color:#515151;
+    text-decoration:underline;
+}
+
+h1, h2 {
+    font-size:24px;
+    margin-top:40px;
+    margin-bottom:15px;
+    font-weight:normal;
+    font-family:'trebuchet ms', verdana, tahoma, 'sans serif';
+}
+
+h1 {
+    font-family: 'trebuchet ms', verdana, tahoma, "sans serif";
+    color: #000000;
+}
+
+h1 a:link {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+h1 a:visited {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+
+.topic {
+    font-size: 20px;
+}
+
+#current {
+    color:#800;
+    font-weight:bold;
+}
+
+
+
+
+/* containers */
+#wrap {
+    -webkit-box-shadow: 0px 3px 15px #2b2b2b;
+    -moz-box-shadow: 0px 3px 15px #2b2b2b;
+    margin:0 5%;
+    min-width:960px;
+}
+
+#topcontainer {
+    height:10px;
+    border-top:#666 1px solid;
+    background: #000 url('../img/toptop_bg.png') repeat-x bottom;
+}
+
+#container, #container2 {
+    background: #FFF url('../img/container_bg.png') repeat-x top;
+}
+
+div#container2 > a > img { /* github banderole */
+    position: absolute; top: 0; right: 0; border: 0;
+}
+
+#banner {
+    background:black url('../img/top_bg.png') repeat-x top;
+    border-bottom: 1px solid #333;
+}
+
+#banner h1 {
+    margin: 0;
+    padding: 30px 5px 30px 20px;
+    color:white;
+}
+
+/* top right nav */
+#subnav {
+    margin:0;
+    background:#4c4c4c;
+    border-top:1px solid #666;
+    border-bottom:2px solid #fff;
+    padding: 4px 5px 4px 5px;
+    color:#a9a9a9;
+    height:20px;
+}
+
+/* left column */
+#left {
+    float: left;
+    width: 190px;
+    padding-left:0px;
+}
+
+/* main content area */
+#content {
+    padding-top: 1em;
+    margin: 0 2em 0 220px;
+}
+
+#content img {
+    margin: 0 0 15px 15px;
+}
+
+#content h1 {
+    font-weight:bold;
+}
+
+code {
+    /* font & text */
+    font-family: monospace;
+    font-size: 12.7px;
+    line-height: 14px;
+    white-space: pre;
+
+    /* color & background */
+    background-color: #fffae5;
+    background-position: 0% 0%;
+    color: #000000;
+
+    /* box */
+    width: 95%;
+    border: 1px dashed #f0c931;
+    margin: 3px 0 13px 0;
+    padding: 13px 13px 13px 13px;
+
+    /* positioning */
+    display: block;
+}
+
+code.inline {
+    display: inline;
+    padding: 3px;
+    font-size: 14px;
+}
+
+div#content > p > a > img { /* comic */
+    float: right;
+    border: 0;
+}
+
+
+/* left nav */
+
+
+#nav ul {
+    width: 100%;
+    margin:0;
+    padding:0;
+    background: url('../img/navmenu_bg.png') no-repeat top right;
+    margin-top:30px;
+    font-family:'trebuchet ms', verdana, tahoma, 'sans serif';
+}
+
+#nav li {
+    list-style:none;
+    height:45px;
+    background: url('../img/nav_bgbottom.png') no-repeat -40px 44px;
+}
+
+#nav ul li a {
+    color:black;
+    text-decoration:none;
+    padding-left:20px;
+    line-height:45px;
+    display:block;
+    height:45px;
+}
+
+#nav ul li a:hover {
+    color:#800;
+    background-color: #f2dd8c;
+    text-decoration:underline;
+}
+
+#nav a:active {
+    color:#fff;
+    background-color:#800;
+    text-decoration:underline;
+}
+
+
+/* top right nav */
+#subnav ul {
+    margin:0;
+    padding: 0;
+    text-decoration:none;
+}
+
+#subnav li {
+    list-style:none;
+    text-decoration:none;
+}
+
+#subnav ul li a {
+    display:block;
+    color:#a9a9a9;
+    text-decoration:none;
+    float:right;
+    padding:0px 12px 0px 12px;
+
+}
+
+#subnav ul li a:hover {
+    color:white;
+    text-decoration:none;
+}
+
+
+/* footer */
+
+#footer {
+    clear: both;
+    background: #000 url('../img/footer_bg.png') repeat-x top;
+    padding: 3em 0 0;
+    height:55px;
+    margin:0px 0px 0px 0px;
+    color:#f9f9f9;
+    text-align: center;
+}
+
+#footer a:link, #footer a:visited {
+    color: white;
+    text-decoration:none;
+}
+
+#footer a:hover, #footer a:active {
+    color: white;
+    text-decoration:underline;
+}

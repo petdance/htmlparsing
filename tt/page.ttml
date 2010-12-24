@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>htmlparsing.com: Your guide to parsing HTML</title>
+        <link rel="stylesheet" type="text/css" href="/css/htmlparsing.css" />
+    </head>
+    <body>
+        <div id="wrap">
+            [% PROCESS header.tt %]
+            <div id="container2">
+                [% PROCESS sidebar.tt %]
+                <div id="content">
+                    [% body %]
+                </div>
+                [% PROCESS footer.tt %]
+            </div>
+        </div>
+    </body>
+</html>
