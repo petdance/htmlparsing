@@ -1,3 +1,7 @@
+This project is the source code for http://htmlparsing.com, plus the
+Perl code that converts it from Markdown format into HTML and uploads
+it to the server.
+
 Repository layout
 -----------------
 
