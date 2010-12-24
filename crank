@@ -25,7 +25,7 @@ GetOptions(
 my $pages = [
     index      => 'Home',
     perl       => 'Perl',
-    regexes    => 'Regular expressions',
+    regexes    => 'Regexes',
 #    asp        => 'ASP',
 #    coldfusion => 'ColdFusion',
 #    csharp     => 'C#',

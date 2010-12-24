@@ -3,3 +3,9 @@
 * HTML is not regular
 * Regexes may match today, but what about tomorrow?
 
+# Scraps
+
+Parsers are pieces of code that already work, already have been tested.
+
+Your regex probably doesn't have everything worked out.
+Parsers have solutions for edge cases built in.
