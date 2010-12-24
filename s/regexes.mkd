@@ -1,0 +1,5 @@
+# You should probably not be using regular expressions
+
+* HTML is not regular
+* Regexes may match today, but what about tomorrow?
+

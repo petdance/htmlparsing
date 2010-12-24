@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #dcdcdc url('../img/bobby_bg.png') repeat-x top;
+    background: #dcdcdc url('../img/background.png') repeat-x top;
     font-family: georgia, 'times new roman', serif;
 }
 
@@ -62,8 +62,8 @@ h1 a:visited {
 }
 
 #topcontainer {
-    height:10px;
-    border-top:#666 1px solid;
+    height: 10px;
+    border-top: #666 1px solid;
     background: #000 url('../img/toptop_bg.png') repeat-x bottom;
 }
 
