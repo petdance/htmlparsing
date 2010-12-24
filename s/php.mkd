@@ -1,0 +1,8 @@
+# PHP uses DOM
+
+HTML parsing in PHP is done with the
+[DOM module](http://php.net/manual/en/book.dom.php).
+
+# Notes
+
+http://stackoverflow.com/questions/292926/robust-mature-html-parser-for-php
