@@ -48,7 +48,5 @@ You can't reliably parse HTML with regexes.  Regular expressions are a
 tool that is insufficiently sophisticated to understand the constructs
 employed by HTML. HTML is not a regular language and hence cannot be
 parsed by regular expressions. Regex queries are not equipped to break
-down HTML into its meaningful parts.  Even enhanced irregular regular
-expressions as used by Perl are not up to the task of parsing HTML. You
-will never make me crack. HTML is a language of sufficient complexity
-that it cannot be parsed by regular expressions.
+down HTML into its meaningful parts.  HTML is a language of sufficient
+complexity that it cannot be parsed by regular expressions.
