@@ -14,9 +14,9 @@ So you write a regex like this (in [Perl](/perl.html)):
         $url = $1;
     }
 
-In this case, `$url` will indeed contain
-`http://example.com/whatever.jpg`.  But what happens when you start
-getting HTML like this:
+In this case, <tt>$url</tt> will indeed contain
+<tt>http://example.com/whatever.jpg</tt>.  But what happens when
+you start getting HTML like this:
 
     <img src='http://example.com/whatever.jpg'>
 
