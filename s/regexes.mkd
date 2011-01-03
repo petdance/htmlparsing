@@ -37,12 +37,14 @@ or you start getting false positives from
 
     <!-- <img src="http://example.com/outdated.png"> -->
 
-# Scraps
+# Don't reinvent the wheel
 
 Parsers are pieces of code that already work, already have been tested.
 
 Your regex probably doesn't have everything worked out.
 Parsers have solutions for edge cases built in.
+
+# Why not parse with regexes?
 
 You can't reliably parse HTML with regexes.  Regular expressions are a
 tool that is insufficiently sophisticated to understand the constructs
