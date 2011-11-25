@@ -32,4 +32,4 @@ Contributing page content
 1. Modify templates or page bodies. New pages have to be registered in the file `crank`.
 2. Run `make` to build the site and inspect the result in the `build` directory.
 3. Run `make test` to check for HTML errors.
-4. Commit/publish changes, see `s/index.mkd`.
+4. Commit/publish changes, see `s/index.md`.
