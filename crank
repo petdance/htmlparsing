@@ -24,6 +24,7 @@ GetOptions(
 
 my $pages = [
     index      => 'Home',
+    java       => 'Java',
     perl       => 'Perl',
     php        => 'PHP',
     regexes    => 'Regexes',
@@ -32,7 +33,6 @@ my $pages = [
 #    csharp     => 'C#',
 #    delphi     => 'Delphi',
 #    dotnet     => '.NET',
-#    java       => 'Java',
 #    perl       => 'Perl',
 #    php        => 'PHP',
 #    postgresql => 'PostgreSQL',

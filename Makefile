@@ -19,6 +19,6 @@ test: crank
 	prove t/html.t
 
 # This is only useful for Andy
-rsync:
+rsync: crank
 	rsync -azu -e ssh --delete --verbose \
 	    $(BUILD)/ andy@huggy.petdance.com:/srv/hrx

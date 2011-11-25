@@ -17,3 +17,5 @@ This site shows you how.
 # Thanks
 
 Thanks to the following folks for their contributions:
+
+* Stuart Caie
