@@ -27,6 +27,7 @@ my $pages = [
     java       => 'Java',
     perl       => 'Perl',
     php        => 'PHP',
+    python     => 'Python',
     regexes    => 'Regexes',
 #    asp        => 'ASP',
 #    coldfusion => 'ColdFusion',
@@ -36,7 +37,6 @@ my $pages = [
 #    perl       => 'Perl',
 #    php        => 'PHP',
 #    postgresql => 'PostgreSQL',
-#    python     => 'Python',
 #    ruby       => 'Ruby',
 #    scheme     => 'Scheme',
 ];
