@@ -5,6 +5,11 @@ is the basis for all HTML parsing in Perl.  There are other CPAN modules
 that do parsing, but the vast majority of them are just wrappers around
 HTML::Parser.
 
+# xmlgrep
+
+The [XML::Twig](http://search.cpan.org/dist/XML-Twig) module includes the
+`xmlgrep` utility, which can often be good enough.  It doesn't parse,
+but finds local matches.
 
 # To do
 
