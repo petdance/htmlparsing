@@ -11,8 +11,9 @@ This site shows you how.
 
 # To do
 
-* Explain why creating code from outside data is bad.
-* Potential speed win when reusing prepared statements.
+* Add more languages.
+* Explain why regexes are bad.
+* Explain how fragile regexes are.
 
 # Thanks
 
