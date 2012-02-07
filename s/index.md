@@ -19,6 +19,8 @@ This site shows you how.
 
 Thanks to the following folks for their contributions:
 
+* Nathan Mahdavi
 * Jeffrey Kegler
 * Bill Ricker
 * Stuart Caie
+* and Jeana Clark

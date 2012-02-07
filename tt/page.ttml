@@ -23,6 +23,7 @@
                 <div id="content">
                     [% body %]
                 </div>
+                <div style="clear:both;"></div>
                 <a href="http://github.com/petdance/htmlparsing"><img
                     src="http://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub" /></a>
             </div>
