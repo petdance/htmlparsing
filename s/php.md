@@ -11,6 +11,14 @@ HTML parsing in PHP is done with the
     }
     $html = $dom->saveHTML();
 
+Here's an example for pulling out any `<a>` tags with the `nofollow` attribute:
+
+    $doc = new DOMDocument();
+    libxml_use_internal_errors(true);
+    $doc->loadHTML($html); // loads your HTML
+    $xpath = new DOMXPath($doc);
+    // returns a list of all links with rel=nofollow
+    $nlist = $xpath->query("//a[@rel='nofollow']");
 
 # Notes
 
