@@ -19,6 +19,7 @@ This site shows you how.
 
 Thanks to the following folks for their contributions:
 
+* Kirk Kimmel
 * Anubhava Srivastava
 * Nathan Mahdavi
 * Jeffrey Kegler
