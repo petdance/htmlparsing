@@ -68,7 +68,7 @@ possible to search by tag name or by attribute.
     
     $mech->get( 'http://htmlparsing.com/' );
     
-    # fine all <p> tags
+    # fine all <h1> tags
     my @list = $mech->find('h1');
     
     # or this way
