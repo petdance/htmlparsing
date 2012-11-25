@@ -37,7 +37,9 @@ Here's an example for pulling out any `<a>` tags with the `nofollow` attribute:
     # Create a DOM parser object
     $dom = new DOMDocument();
 
-    # Parse the HTML from Google
+    # Parse the HTML from Google.
+    # The @ before the method call suppresses any warnings that
+    # loadHTML might throw because of invalid HTML in the page.
     @$dom->loadHTML($html);
 
     # Iterate over all the <a> tags
