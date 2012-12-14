@@ -79,6 +79,12 @@ do that:
 
     $result = $html->save();
 
+`find` lets you easily query the DOM. The parameter is
+`tagtype[attributeName=attributeValue]` where the square brackets are
+an optional filter. Then you just iterate over every link this function
+finds, and prepend the href attribute with your domain.  The `href`
+function is both a getter and setter.
+
 ## Extracting text with simple\_html\_dom
 
 A common task is to remove all tag markup from a page of HTML, leaving
