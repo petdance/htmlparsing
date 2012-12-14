@@ -20,7 +20,7 @@ Here's an example for pulling out any `<a>` tags with the `nofollow` attribute:
     // returns a list of all links with rel=nofollow
     $nlist = $xpath->query("//a[@rel='nofollow']");
 
-# A simple program to extract Google result links
+## A simple DOM program to extract Google result links
 
     <?php
 
@@ -49,6 +49,42 @@ Here's an example for pulling out any `<a>` tags with the `nofollow` attribute:
             echo "<br />";
     }
     ?>
+
+# simple\_html\_dom
+
+The [simple\_html\_dom][simple_html_dom] module is an alternative to
+the built-in-DOM module.  Since it is a third-party module, you'll have
+to install it yourself.
+
+[simple_html_dom]: http://simplehtmldom.sourceforge.net/ "simple_html_dom homepage"
+
+## Modifying links with simple\_html\_dom
+
+Say you have some links in your HTML file that look like this:
+
+    <a class="someclass" href="/some/file.html">
+
+and you want to convert them to:
+
+    <a class="someclass" href="http://www.example.com/some/file.html">
+
+but only the ones with a class of "someclass".  Here's a program to
+do that:
+
+    $html = new simple_html_dom();
+    $html->load($input);
+
+    foreach($html->find('a[class=someclass]') as $link)
+        $link->href = 'http://www.example.com' . $link->href;
+
+    $result = $html->save();
+
+## Extracting text with simple\_html\_dom
+
+A common task is to remove all tag markup from a page of HTML, leaving
+only the text.  This is simple:
+
+    echo file_get_html('http://www.google.com/')->plaintext;
 
 # Notes
 
