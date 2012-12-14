@@ -3,7 +3,7 @@
 </div>
 <div id="container">
     <div id="banner">
-        <h1><a href="http://htmlparsing.com/">htmlparsing.com -- How to parse HTML</a></h1>
+        <h1><a href="http://htmlparsing.com/">htmlparsing.com -- How to parse HTML the right way, without regular expressions</a></h1>
     </div>
     <!--
     <div id="subnav">
