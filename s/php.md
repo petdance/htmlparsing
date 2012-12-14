@@ -92,6 +92,7 @@ only the text.  This is simple:
 
     echo file_get_html('http://www.google.com/')->plaintext;
 
-# Notes
+# More alternative parsers for PHP
 
-http://stackoverflow.com/questions/292926/robust-mature-html-parser-for-php
+[This thread on StackOverflow](http://stackoverflow.com/questions/292926/robust-mature-html-parser-for-php)
+discusses a number of different parsing tools available for PHP.
