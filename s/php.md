@@ -94,5 +94,5 @@ only the text.  This is simple:
 
 # More alternative parsers for PHP
 
-[This thread on StackOverflow](http://stackoverflow.com/questions/292926/robust-mature-html-parser-for-php)
+[This thread on StackOverflow](http://stackoverflow.com/questions/3577641/how-do-you-parse-and-process-html-xml-in-php)
 discusses a number of different parsing tools available for PHP.
