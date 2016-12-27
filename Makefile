@@ -21,4 +21,4 @@ test: crank
 # This is only useful for Andy
 rsync: crank
 	rsync -azu -e ssh --delete --verbose \
-	    $(BUILD)/ andy@huggy.petdance.com:/srv/hrx
+	    $(BUILD)/ andy@alex.petdance.com:/srv/htmlparsing
