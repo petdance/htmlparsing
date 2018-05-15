@@ -24,7 +24,7 @@ For building:
 
 For testing:
 
-    Test::HTML::Lint
+    Test::HTML::Tidy5
 
 Contributing page content
 -------------------------
