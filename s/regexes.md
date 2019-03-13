@@ -52,3 +52,10 @@ employed by HTML. HTML is not a regular language and hence cannot be
 parsed by regular expressions. Regex queries are not equipped to break
 down HTML into its meaningful parts.  HTML is a language of sufficient
 complexity that it cannot be parsed by regular expressions.
+
+In addition, the performance of regular expressions can be
+unpredictable, and a few small tweaks to the expression may
+unexpectedly result in much worse performance (depending on the
+expression, the language, and engine).  This is particularly true when
+using features such as positive or negative lookahead or lookbehind,
+which might be desireable for HTML parsing tasks.
