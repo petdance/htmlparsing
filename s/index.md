@@ -26,4 +26,5 @@ Thanks to the following folks for their contributions:
 * Jeffrey Kegler
 * Bill Ricker
 * Stuart Caie
-* and Jeana Clark
+* Jeana Clark
+* David Precious

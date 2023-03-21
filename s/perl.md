@@ -94,6 +94,30 @@ The [XML::Twig](http://search.cpan.org/dist/XML-Twig) module includes the
 but finds local matches.
 
 
+# HTML::TableExtract
+
+A fairly common requirement when parsing websites is to scrape data from a HTML
+table.  [HTML::TableExtract](http://search.cpan.org/dist/HTML-TableExtract)
+makes this easy and simple.
+
+Quick example:
+
+    my $html = LWP::Simple::get($url);
+    my $te = HTML::TableExtract->new(
+        headers => [ 'Date', 'Home Team', 'Away Team', 'Venue' ],
+    );
+    $te->parse($html);
+
+    for my $row ($te->rows) {
+        my ($date, $home, $away, $venue) = @$row;
+    }
+
+The above will find the first table on the page which has the headers mentioned,
+and extract each row from it.  Looking for the table by the headers means that,
+if extra columns are added or columns are moved about, your script will continue
+to work perfectly.
+
+
 # To do
 
 * Code examples
